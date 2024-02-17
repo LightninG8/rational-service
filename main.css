@@ -1,0 +1,12 @@
+/* MAIN */
+.page__main {
+  margin-top: calc(var(--header-body-height) + var(--header-nav-height));
+  height: 10000px;
+  background: red;
+}
+
+@media screen and (max-width: 980px) {
+  .page__main {
+    margin-top: var(--header-body-height);
+  }
+}
