@@ -36,7 +36,8 @@ html {
 
   --color-theme-white: #f8f4f9;
   --color-theme-black: #050505;
-  --color-theme-gray: #d4d0d4;
+  --color-theme-gray: #7e7c7f;
+  --color-theme-light-gray: #d4d0d4;
   --color-theme-red: #fe141e;
   --color-theme-green: #2ac054;
   --color-theme-yellow: #ffea42;
@@ -94,11 +95,17 @@ body {
   :root {
     --container-width: 540px;
 
+    --font-text-medium: 1.8rem;
     --font-text-common: 1.8rem;
+    --font-text-small: 1.6rem;
+
+    --font-title-medium: 2.4rem;
+
   }
 }
 @media screen and (max-width: 560px) {
   :root {
     --container-width: 320px;
+    
   }
 }
