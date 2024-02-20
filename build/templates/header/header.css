@@ -21,9 +21,10 @@
   position: relative;
   background: var(--color-theme-white);
   z-index: 10;
+  border-bottom: 1px solid var(--color-theme-light-gray);
+
 }
 .header__menu {
-  border-top: 1px solid var(--color-theme-light-gray);
 }
 
 .header__body {

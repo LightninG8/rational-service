@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./templates/footer/footer.css">
   <link rel="stylesheet" href="./templates/main/main.css">
   <link rel="stylesheet" href="./templates/home-categories/home-categories.css">
+  <link rel="stylesheet" href="./templates/contact-form/contact-form.css">
 </head>
 
 <body class="page">
@@ -270,6 +271,52 @@
   </div>
 </section>
 
+       <section class="page__section page__contact-form contact-form">
+
+  <div class="contact-form__body container">
+    <img src="./assets/images/iphone.png" class="contact-form__bg image" />
+
+    <h3 class="contact-form__title">Узнайте стоимость ремонта прямо сейчас</h3>
+    <p class="contact-form__subtitle">Если вы вышлете нам фото/видео оборудования и опишите кратко опишите,
+      то мы сообщим вам примерную стоимость ремонта до приезда мастера</p>
+    <div class="contact-form__socials">
+      <p class="contact-form__socials-text">Или напишите нам, мы онлайн</p>
+      <div class="contact-form__socials-icons">
+        <a href="#" class="contact-form__social">
+          <img src="./assets/images/whatsapp.png" alt="whatsapp" class="contact-form__social-image">
+        </a>
+        <a href="#" class="contact-form__social">
+          <img src="./assets/images/telegram.png" alt="whatsapp" class="contact-form__social-image">
+        </a>
+      </div>
+    </div>
+    <form action="" class="contact-form__form">
+      <div class="contact-form__form-column">
+        <p class="contact-form__input-title">Введите номер телефона</p>
+        <input type="phone" placeholder="+ 7 (_ _ _) _ _ _ - _ _ - _ _" class="contact-form__input">
+        <div class="contact-form__submit-wrapper">
+          <label>
+            <input type="checkbox" checked>
+          </label>
+          <div class="contact-form__submit-text">
+            Согласен с условиями <a href="#" class="contact-form__submit-link link">политики конфиденциальности
+              данных</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form__form-column">
+        <button type="submit" class="contact-form__submit">
+          <span>Узнать стоимость</span>
+          <div>
+            <img class="image contact-form__submit-arrow" src="./assets/images/arrow-white.png" alt="->">
+          </div>
+        </button>
+      </div>
+    </form>
+    <img src="./assets/images/iphone-mob.png" class="contact-form__bg-mob image" />
+  </div>
+</section>
+
 
   </main>
 
@@ -401,7 +448,7 @@
 
 
 
-  <script src="header.js"></script>
+  <script src="./templates/header/header.js"></script>
 </body>
 
 </html>

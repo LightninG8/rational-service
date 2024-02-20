@@ -14,6 +14,7 @@ html {
   /* FONT SIZE */
   --font-title-extra: 5.5rem;
   --font-title-big: 4rem;
+  --font-title-semi-big: 3rem;
   --font-title-medium: 2rem;
   --font-title-small: 1.5rem;
 
@@ -48,6 +49,7 @@ html {
   padding: 0;
   box-sizing: border-box;
   outline: none;
+  line-height: 120%;
 }
 
 body {
@@ -86,18 +88,24 @@ body {
   font-size: var(--font-title-big);
   font-weight: bold;
   text-align: center;
-  line-height: 110%;
 }
 
 .subtitle {
   font-size: var(--font-subtitle-big);
   font-weight: normal;
   text-align: center;
-  line-height: 110%;
 }
 
 .red {
   color: var(--color-theme-red);
+}
+
+.page__section:not(:first-child) {
+  margin-top: 120px;
+}
+
+.page__section:last-child {
+  margin-bottom: 120px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -106,8 +114,20 @@ body {
 
     --font-title-big: 3.5rem;
     --font-subtitle-big: 2.5rem;
+    --font-title-semi-big: 2.5rem;
+
+    --font-title-medium: 1.5rem;
     --font-text-common: 1.3rem;
+    
     --font-text-big: 1.6rem;
+  }
+
+  .page__section:not(:first-child) {
+    margin-top: 100px;
+  }
+
+  .page__section:last-child {
+    margin-bottom: 100px;
   }
 }
 
@@ -116,12 +136,24 @@ body {
     --container-width: 540px;
 
     --font-title-big: 3.5rem;
+
+    --font-title-semi-big: 3.5rem;
+  
     --font-subtitle-big: 2.5rem;
+  
     --font-text-medium: 1.8rem;
     --font-text-common: 1.8rem;
     --font-text-small: 1.6rem;
 
     --font-title-medium: 2.4rem;
+  }
+
+  .page__section:not(:first-child) {
+    margin-top: 120px;
+  }
+
+  .page__section:last-child {
+    margin-bottom: 120px;
   }
 }
 @media screen and (max-width: 560px) {
@@ -130,5 +162,7 @@ body {
 
     --font-title-big: 3rem;
     --font-subtitle-big: 2.5rem;
+
+    --font-title-semi-big: 3rem;
   }
 }
