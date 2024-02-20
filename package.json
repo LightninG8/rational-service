@@ -1,0 +1,22 @@
+{
+  "name": "rational-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "header.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-rigger": "^0.5.8",
+    "gulp-x-includer": "^0.1.2"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-include": "^2.4.1",
+    "gulp-pagebuilder": "^0.1.4",
+    "nodemon": "^3.0.3"
+  }
+}

@@ -1,8 +1,7 @@
 /* MAIN */
 .page__main {
   margin-top: calc(var(--header-body-height) + var(--header-nav-height));
-  height: 400px;
-  background: red;
+  background: var(--color-theme-white);
 }
 
 @media screen and (max-width: 980px) {
