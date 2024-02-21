@@ -4,15 +4,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Product</title>
 
   <link rel="stylesheet" href="./globals.css">
   <link rel="stylesheet" href="./templates/header/header.css">
   <link rel="stylesheet" href="./templates/footer/footer.css">
   <link rel="stylesheet" href="./templates/main/main.css">
   <link rel="stylesheet" href="./templates/home-categories/home-categories.css">
-  <link rel="stylesheet" href="./templates/contact-form/contact-form.css">
+  <link rel="stylesheet" href="./templates/breadcrumbs/breadcrumbs.css">
+  <link rel="stylesheet" href="./templates/product/product.css">
+
   <link rel="stylesheet" href="./templates/clients/clients.css">
+  <link rel="stylesheet" href="./templates/contact-form/contact-form.css">
 
 
 
@@ -221,59 +224,97 @@
   </header>
 
   <main class="page__main main">
-    <section class="page__section page__home-categories home-categories">
-  <div class="home-categories__body container">
-    <h2 class="home-categories__title title">Мы точно знаем потребности наших клиентов</h2>
-    <p class="home-categories__subtitle subtitle">И можем решить любые технические задачи, связанные с оборудованием</p>
-    <ul class="home-categories__list list">
-      <li class="home-categories__item" style="background-image: url('./assets/images/category.png')">
-        <a href="#" class="home-categories__link link">
-          <p class="home-categories__name">Холодильное</p>
-        </a>
+    <section class="page__content">
+      <section class="page__breadcrumbs breadcrumbs">
+  <nav class="container breadcrumbs__nav">
+    
+    <ul class="breadcrumbs__list list">
+      <li class="breadcrumbs__item">
+        <a href="#" class="breadcrumbs__link link">Главная</a>
       </li>
-      <li class="home-categories__item" style="background-image: url('./assets/images/category.png')">
-        <a href="#" class="home-categories__link link">
-          <p class="home-categories__name">Холодильное</p>
-        </a>
+      <li class="breadcrumbs__item">
+        <a href="#" class="breadcrumbs__link link">Каталог</a>
       </li>
-      <li class="home-categories__item" style="background-image: url('./assets/images/category.png')">
-        <a href="#" class="home-categories__link link">
-          <p class="home-categories__name">Холодильное</p>
-        </a>
-      </li>
-      <li class="home-categories__item" style="background-image: url('./assets/images/category.png')">
-        <a href="#" class="home-categories__link link">
-          <p class="home-categories__name">Холодильное</p>
-        </a>
-      </li>
-      <li class="home-categories__item" style="background-image: url('./assets/images/category.png')">
-        <a href="#" class="home-categories__link link">
-          <p class="home-categories__name">Холодильное</p>
-        </a>
-      </li>
-      <li class="home-categories__item" style="background-image: url('./assets/images/category.png')">
-        <a href="#" class="home-categories__link link">
-          <p class="home-categories__name">Холодильное</p>
-        </a>
-      </li>
-      <li class="home-categories__item" style="background-image: url('./assets/images/category.png')">
-        <a href="#" class="home-categories__link link">
-          <p class="home-categories__name">Холодильное</p>
-        </a>
-      </li>
-      <li class="home-categories__item" style="background-image: url('./assets/images/category.png')">
-        <a href="#" class="home-categories__link link">
-          <p class="home-categories__name">Холодильное</p>
-        </a>
-      </li>
-      <li class="home-categories__item" style="background-image: url('./assets/images/category.png')">
-        <a href="#" class="home-categories__link link">
-          <p class="home-categories__name">Холодильное</p>
-        </a>
+      <li class="breadcrumbs__item">
+        <a href="#" class="breadcrumbs__link link">Холодильное оборудование</a>
       </li>
     </ul>
-  </div>
+  </nav>
+
 </section>
+
+      <div class="page__title title container">Abat - ремонт/запчасти</div>
+
+      <div class="product page__product">
+  <div class="product__body container">
+    <div class="product__photo">
+      <img class="product__image image" src="./assets/images/abat.png" alt="abat">
+    </div>
+    <div class="product__advantages">
+      <p class="product__advantage">
+        Диагностика и ремонт
+      </p>
+      <p class="product__advantage">
+        Подключение
+      </p>
+      <p class="product__advantage">
+        Техническое обслуживание
+      </p>
+      <p class="product__advantage">
+        Пусконаладочные работы
+      </p>
+      <p class="product__advantage">
+        Настройка
+      </p>
+      <p class="product__advantage">
+        Монтаж и демонтаж
+      </p>
+      <p class="product__advantage">
+        Исправление ошибок
+      </p>
+      <p class="product__advantage">
+        Запчасти и расходники
+      </p>
+    </div>
+    <div class="product__contact">
+      <div class="product__button">
+        <span>ОСТАВИТЬ ЗАЯВКУ</span>
+        <div class="product__button-image">
+          <img class="image contact-form__submit-arrow" src="./assets/images/arrow-white.png" alt="->">
+        </div>
+      </div>
+      <div class="product__call">
+        <img src="./assets/images/click.png" alt="click" class="product__call-image">
+        <p class="product__call-text"><span class="bold">Перезвоним</span><br/> через 1 минуту</p>
+      </div>
+    </div>
+    <div class="product__banners">
+      <div class="product__banner product-banner">
+        <div class="product-banner__text">
+          <p class="product-banner__title">Скидка 20%</p>
+          <p class="product-banner__subtitle">при заключении договора на ТО</p>
+        </div>
+        <div class="product-banner__photo">
+          <img src="./assets/images/banner-man.png" alt="" class="product-banner__image image">
+        </div>
+      </div>
+      <div class="product__banner product-banner">
+        <div class="product-banner__text">
+          <p class="product-banner__title">Гарантия</p>
+          <p class="product-banner__subtitle">на ремонт до 12 месяцев</p>
+        </div>
+        <div class="product-banner__photo">
+          <img src="./assets/images/banner-docs.png" alt="" class="product-banner__image image">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </section>
+
+
 
     <section class="page__section page__clients clients">
   <div class="clients__body container">
@@ -425,7 +466,6 @@
 </section>
 
 
-
   </main>
 
 
@@ -549,8 +589,6 @@
     <p class="copyright__item">Designed by leyapolly</p>
   </div>
 </footer>
-
-
 
 
 
