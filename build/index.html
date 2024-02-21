@@ -12,10 +12,15 @@
   <link rel="stylesheet" href="./templates/main/main.css">
   <link rel="stylesheet" href="./templates/home-categories/home-categories.css">
   <link rel="stylesheet" href="./templates/contact-form/contact-form.css">
+  <link rel="stylesheet" href="./templates/clients/clients.css">
+
+
+
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 </head>
 
 <body class="page">
-   <header class="page__header header">
+  <header class="page__header header">
     <div class="header__main">
       <div class="container header__body">
   
@@ -216,7 +221,7 @@
   </header>
 
   <main class="page__main main">
-       <section class="page__section page__home-categories home-categories">
+    <section class="page__section page__home-categories home-categories">
   <div class="home-categories__body container">
     <h2 class="home-categories__title title">Мы точно знаем потребности наших клиентов</h2>
     <p class="home-categories__subtitle subtitle">И можем решить любые технические задачи, связанные с оборудованием</p>
@@ -270,7 +275,7 @@
   </div>
 </section>
 
-       <section class="page__section page__contact-form contact-form">
+    <section class="page__section page__contact-form contact-form">
 
   <div class="contact-form__body container">
     <img src="./assets/images/iphone.png" class="contact-form__bg image" />
@@ -316,13 +321,116 @@
   </div>
 </section>
 
+    <section class="page__section page__clients clients">
+  <div class="clients__body container">
+    <h2 class="clients__title page__title title">Регулярное техническое обслуживание</h2>
+    <p class="clients__subtitle page__subtitle subtitle">Пополните список наших клиентов</p>
+    <div class="clients__advantages">
+      <div class="clients__advantage"><span class="bold">Приоритет</span> ремонта</div>
+      <div class="clients__advantage"><span class="bold">-20%</span> от стоимости ремонта</div>
+      <div class="clients__advantage"><span class="bold">Подменное</span> оборудование</div>
+      <div class="clients__advantage"><span class="bold">Фото/видео отчеты</span> в приложении</div>
+      <div class="clients__advantage">Оплата <span class="bold">после ремонта</span></div>
+    </div>
+  </div>
+  <div class="clients__slider">
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/apteki.png" alt="">
+        <img src="./assets/images/volkonskiy.png" alt="">
+      </div>
+    </div>
+
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/gazprom.png" alt="">
+        <img src="./assets/images/hlebnica.png" alt="">
+      </div>
+    </div>
+
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/wildberries.png" alt="">
+        <img src="./assets/images/rostics.png" alt="">
+      </div>
+    </div>
+
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/subway.png" alt="">
+        <img src="./assets/images/bbburger.png" alt="">
+      </div>
+    </div>
+
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/chaikhona.png" alt="">
+        <img src="./assets/images/neftmagistral.png" alt="">
+      </div>
+    </div>
+
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/shokoladnica.png" alt="">
+        <img src="./assets/images/u.png" alt="">
+      </div>
+    </div>
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/apteki.png" alt="">
+        <img src="./assets/images/volkonskiy.png" alt="">
+      </div>
+    </div>
+
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/gazprom.png" alt="">
+        <img src="./assets/images/hlebnica.png" alt="">
+      </div>
+    </div>
+
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/wildberries.png" alt="">
+        <img src="./assets/images/rostics.png" alt="">
+      </div>
+    </div>
+
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/subway.png" alt="">
+        <img src="./assets/images/bbburger.png" alt="">
+      </div>
+    </div>
+
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/chaikhona.png" alt="">
+        <img src="./assets/images/neftmagistral.png" alt="">
+      </div>
+    </div>
+
+    <div class="clients__slide-wrapper">
+      <div class="clients__slide">
+        <img src="./assets/images/shokoladnica.png" alt="">
+        <img src="./assets/images/u.png" alt="">
+      </div>
+    </div>
+
+
+
+
+  </div>
+</section>
+
+
 
   </main>
 
 
 
 
-   <footer class="footer page__footer">
+  <footer class="footer page__footer">
   <div class="container footer__main">
     <div class="footer__column footer-column footer__column_logo">
       <div class="footer__logo-wrapper">
@@ -442,12 +550,17 @@
 </footer>
 
 
-  
 
 
 
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
   <script src="./templates/header/header.js"></script>
+  <script src="./templates/clients/clients.js"></script>
+
 </body>
 
 </html>

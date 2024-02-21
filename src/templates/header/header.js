@@ -16,8 +16,6 @@
     };
 
     const onResize = () => {
-      console.log(window.innerWidth);
-      console.log();
 
       if (window.innerWidth < 980) {
         document.removeEventListener("scroll", onScroll);
