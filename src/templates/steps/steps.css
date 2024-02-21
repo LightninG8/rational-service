@@ -75,6 +75,10 @@
   border: 8px solid transparent; border-left: 8px solid var(--color-theme-red);
 }
 
+.steps__list .steps__item:nth-child(4) .step__arrow {
+  display: none;
+}
+
 .step__body {
   margin-top: 20px;
 
