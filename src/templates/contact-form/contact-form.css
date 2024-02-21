@@ -1,3 +1,7 @@
+.contact-form {
+  background-color: var(--color-theme-white);
+}
+
 .contact-form__body {
   position: relative;
 
@@ -119,7 +123,7 @@
   height: 100%;
 
   font-size: var(--font-title-medium);
-  font-family: 'Manrope';
+  font-family: "Manrope";
   font-weight: bold;
   color: var(--color-theme-white);
 
@@ -132,7 +136,6 @@
   height: 15px;
 }
 
-
 .contact-form__bg-mob {
   display: none;
 }
@@ -144,7 +147,7 @@
   .contact-form__bg {
     max-width: 320px;
   }
-  .contact-form__socials{
+  .contact-form__socials {
     margin-top: 30px;
   }
   .contact-form__form {
@@ -178,7 +181,7 @@
     margin-right: auto;
     max-width: 320px;
   }
-  .contact-form__socials{
+  .contact-form__socials {
     margin-top: 5px;
   }
 
@@ -203,7 +206,6 @@
 
   .contact-form__socials-text {
     font-size: 2rem;
-
   }
   .contact-form__submit-wrapper {
     width: 62%;
@@ -217,11 +219,9 @@
     font-size: 2rem;
   }
 
-
   .contact-form__form-column {
     font-size: var(--font-text-small);
   }
-
 }
 @media screen and (max-width: 560px) {
   .contact-form__body {

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 html {
   font-size: 10px;
@@ -56,7 +57,7 @@ body {
   font-family: "Manrope", sans-serif;
   font-size: var(--font-text-medium);
 
-  background: var(--color-theme-white);
+  background-color: var(--color-theme-white);
 }
 
 /* REUSABLE */
@@ -100,12 +101,21 @@ body {
   color: var(--color-theme-red);
 }
 
-.page__section:not(:first-child) {
+.page__section {
   margin-top: 120px;
 }
 
 .page__section:last-child {
   margin-bottom: 120px;
+}
+
+.page__content {
+  padding: 60px 0;
+  background-color: var(--color-white);
+}
+
+.page__title {
+  margin-top: 15px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -118,16 +128,24 @@ body {
 
     --font-title-medium: 1.5rem;
     --font-text-common: 1.3rem;
-    
+
     --font-text-big: 1.6rem;
   }
 
-  .page__section:not(:first-child) {
+  .page__section {
     margin-top: 100px;
   }
 
   .page__section:last-child {
     margin-bottom: 100px;
+  }
+
+  .page__title {
+    margin-top: 10px;
+  }
+
+  .page__content {
+    padding: 50px 0;
   }
 }
 
@@ -138,9 +156,9 @@ body {
     --font-title-big: 3.5rem;
 
     --font-title-semi-big: 3.5rem;
-  
+
     --font-subtitle-big: 2.5rem;
-  
+
     --font-text-medium: 1.8rem;
     --font-text-common: 1.8rem;
     --font-text-small: 1.6rem;
@@ -148,19 +166,28 @@ body {
     --font-title-medium: 2.4rem;
   }
 
-  .page__section:not(:first-child) {
+  .page__section {
     margin-top: 120px;
   }
 
   .page__section:last-child {
     margin-bottom: 120px;
   }
+
+  .page__title {
+    margin-top: 15px;
+  }
+
+  .page__content {
+    padding: 60px 0;
+  }
+
+
 }
 @media screen and (max-width: 560px) {
   :root {
     --container-width: 320px;
 
-    --font-title-big: 3rem;
     --font-subtitle-big: 2.5rem;
 
     --font-title-semi-big: 3rem;
